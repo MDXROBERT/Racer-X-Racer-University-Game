@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width" , initial-scale="1.0">
+    <title>Login Form</title>
+    <link rel="stylesheet" href="../CSS CODE/game.css">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<!-- I made the background a class so i can edit it in the css-->
+
+<body class="loginpagebackground"></body>
+<!-- Code for the login form-->
+
+<body>
+    <div class="container">
+        <div class="login-form">
+            <h1>Login Form</h1>
+            <form id="loginForm">
+                <h2>Existing User</h2>
+                <div class="inputBox">
+                    <input type="text" id="loginUsername" required>
+                    <label for="loginUsername">Username</label>
+                    <i class="bx bxs-user"></i>
+                </div>
+                <div class="inputBox">
+                    <input type="password" id="loginPassword" required>
+                    <label for="loginPassword">Password</label>
+                    <i class="bx bxs-lock"></i>
+                </div>
+                <div class="inputBox">
+                    <input type="email" id="loginEmail" required>
+                    <label for="email">Email</label>
+                    <i class="bx bxs-envelope"></i>
+                </div>
+                <div class="inputBox">
+                    <input type="submit" value="Log-in">
+                </div>
+                <p>Don't have an account? <a href="../HTML CODE/registration.html">Register here</a></p>
+            </form>
+        </div>
+    </div>
+    <!-- Code for the navigation bar-->
+    <div class="topnav">
+        <img src="../IMAGES/logo image.png">
+        <ul>
+            <a class="active" href="../index.html">Home</a>
+            <a href="login.html">Login</a>
+            <a href="registration.html">Registration</a>
+            <a href="game1.html">Game</a>
+            <a href="../HTML CODE/leaderboard.html">Leaderboard</a>
+
+
+        </ul>
+        <span id="userDisplay" class="userDisplay"></span>
+    </div>
+    <!-- Code for the footer-->
+    <footer>
+        <a href="../HTML CODE/help.html">How to Play </a>
+        <div class="socialIcon">
+            <img src="../IMAGES/facebookicon.png" alt="facebookimg" />
+
+            <img src="../IMAGES/instagramicon.png" alt="Instaicon">
+
+        </div>
+
+    </footer>
+
+    <script src="../JAVASCRIPT CODE/login.js"></script>
+</body>
+
+</html>

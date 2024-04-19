@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width" , initial-scale="1.0">
+    <title>Leaderboard</title>
+    <link rel="stylesheet" href="../CSS CODE/game.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<!--code for the navigation bar-->
+
+<body>
+    <div class="topnav">
+        <img src="../IMAGES/logo image.png">
+        <ul>
+            <a class="active" href="../index.html">Home</a>
+            <a href="login.html">Login</a>
+            <a href="registration.html">Registration</a>
+            <a href="game1.html">Game</a>
+            <a href="../HTML CODE/leaderboard.html">Leaderboard</a>
+        </ul>
+
+    </div>
+
+    <!-- Leaderboard Table -->
+    <div class="leaderboard-container">
+        <h2>Top Players</h2>
+        <table class="leaderboard-table">
+            <thead>
+                <tr>
+                    <th>Rank</th>
+                    <th>Username</th>
+                    <th>Score</th>
+                </tr>
+            </thead>
+            <tbody id="leaderboard-tbody">
+                <!-- JavaScript will dynamically insert rows here -->
+            </tbody>
+        </table>
+    </div>
+    <!-- code for the footer-->
+    <footer>
+        <a href="../HTML CODE/help.html">How to Play </a>
+
+        <div class="socialIcon">
+            <img src="../IMAGES/facebookicon.png" alt="facebookimg" />
+
+            <img src="../IMAGES/instagramicon.png" alt="Instaicon">
+
+        </div>
+
+    </footer>
+
+    <script src="../JAVASCRIPT CODE/leaderboard.js"></script>
+</body>
+
+</html>
